@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خبرنما | پایگاه خبری</title>
+    <div id="liveClock"></div>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+    <h1>خبرنما</h1>
+    <p>تازه‌ترین اخبار ایران و جهان</p>
+</header>
+
+<nav>
+    <a href="index.html">خانه</a>
+    <a href="pages/politics.html">سیاسی</a>
+    <a href="pages/economy.html">اقتصادی</a>
+    <a href="pages/technology.html">فناوری</a>
+    <a href="pages/sports.html">ورزشی</a>
+    <a href="about.html">درباره ما</a>
+    <a href="contact.html">تماس با ما</a>
+</nav><main>
+    <section class="featured-news">
+
+        <span class="news-label">خبر ویژه</span>
+
+        <h2>دنیای فناوری در آستانه تحولی بزرگ</h2>
+
+        <p>
+            تازه‌ترین پیشرفت‌های دنیای فناوری،
+            زندگی انسان‌ها را وارد مرحله جدیدی می‌کند.
+        </p>
+
+        <a href="pages/news.html">ادامه خبر</a>
+
+    </section>
+    <section class="latest-news">
+
+    <h2>آخرین اخبار</h2>
+
+    <div class="news-container">
+
+        <article class="news-card">
+            <h3>هوش مصنوعی و آینده جهان</h3>
+            <p>فناوری هوش مصنوعی با سرعت زیادی در حال پیشرفت است.</p>
+            <a href="pages/news.html">ادامه مطلب</a>
+        </article>
+
+        <article class="news-card">
+            <h3>توسعه انرژی‌های پاک</h3>
+            <p>کشورهای مختلف به دنبال استفاده بیشتر از انرژی‌های پاک هستند.</p>
+            <a href="pages/news.html">ادامه مطلب</a>
+        </article>
+
+        <article class="news-card">
+            <h3>آخرین رویدادهای ورزشی</h3>
+            <p>نگاهی به مهم‌ترین اتفاقات دنیای ورزش.</p>
+            <a href="pages/news.html">ادامه مطلب</a>
+        </article>
+
+    </div>
+
+</section>
+</main><section class="search-box">
+    <h2>جست‌وجوی اخبار</h2>
+    <input type="text" id="searchInput" placeholder="عنوان خبر مورد نظر را بنویسید...">
+    <button onclick="searchNews()">جست‌وجو</button>
+</section>
+<div id="searchResults"></div>
+<footer>
+    <h3>خبرنما</h3>
+    <p>همراه شما در مسیر آگاهی</p>
+    <p>تمام حقوق این سایت محفوظ است.</p>
+    <p>© 2026 Khabarnama</p>
+</footer>
+<script src="scripts.js"></script>
+</body>
+</html>
